@@ -1,7 +1,0 @@
-[01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo01_talker_str.cpp:22:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
-   22 | }
-      |  [01;31m[K^[m[K
-      |  [32m[K;[m[K
-gmake[2]: *** [CMakeFiles/demo01_talker_str.dir/build.make:76：CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_talker_str.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

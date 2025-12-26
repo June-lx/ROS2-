@@ -1,3 +1,0 @@
-[console_scripts]
-demo01_talker_str = py01_topic.demo01_talker_str:main
-
