@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/user1/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic:/home/user1/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/user1/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[0.045s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.062s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[3.292s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[3.440s] [100%] Built target demo01_talker_str
+[3.451s] Invoked command in '/home/user1/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic:/home/user1/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/user1/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[3.461s] Invoking command in '/home/user1/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic:/home/user1/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/user1/ws01_plumbing/build/cpp01_topic
+[3.468s] -- Install configuration: ""
+[3.468s] -- Installing: /home/user1/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[3.469s] -- Set runtime path of "/home/user1/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[3.470s] -- Installing: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[3.470s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[3.471s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[3.471s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[3.471s] -- Up-to-date: /home/user1/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[3.472s] Invoked command in '/home/user1/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic:/home/user1/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --install /home/user1/ws01_plumbing/build/cpp01_topic

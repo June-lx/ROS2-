@@ -1,0 +1,21 @@
+[0.483s] Invoking command in '/home/user1/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/user1/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/user1/ws01_plumbing/build/py01_topic/build install --record /home/user1/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.658s] running egg_info
+[0.658s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.659s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.659s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.659s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.659s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.660s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.661s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.661s] running build
+[0.661s] running build_py
+[0.661s] running install
+[0.661s] running install_lib
+[0.662s] running install_data
+[0.662s] running install_egg_info
+[0.664s] removing '/home/user1/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[0.664s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/user1/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages/py01_topic-0.0.0-py3.10.egg-info
+[0.665s] running install_scripts
+[0.681s] Installing demo01_talker_str script to /home/user1/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.682s] writing list of installed files to '/home/user1/ws01_plumbing/build/py01_topic/install.log'
+[0.704s] Invoked command in '/home/user1/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic PYTHONPATH=/home/user1/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ws01_plumbing/install/py01_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/user1/ws01_plumbing/build/py01_topic/build install --record /home/user1/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

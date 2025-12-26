@@ -1,0 +1,22 @@
+[0.027s] Invoking command in '/home/user1/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic:/home/user1/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/user1/ws01_plumbing/build/cpp01_topic -- -j12 -l12
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.153s] [ 50%] Built target demo01_talker_str
+[0.164s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[4.029s] [01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In constructor ‘[01m[KListener::Listener()[m[K’:
+[4.029s] [01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:31:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass Listener[m[K’ has no member named ‘[01m[Ksubscription[m[K’; did you mean ‘[01m[Ksubscription_[m[K’?
+[4.029s]    31 |         subscription_ = this->[01;31m[Ksubscription[m[K<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::placeholders::_1));
+[4.029s]       |                               [01;31m[K^~~~~~~~~~~~[m[K
+[4.029s]       |                               [32m[Ksubscription_[m[K
+[4.029s] [01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:31:65:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.030s]    31 |         subscription_ = this->subscription<std_msgs::msg::String[01;31m[K>[m[K("chatter",10,std::bind(&Listener::do_cb,this,std::placeholders::_1));
+[4.030s]       |                                                                 [01;31m[K^[m[K
+[4.030s] [01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:31:67:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.030s]    31 |         subscription_ = this->subscription<std_msgs::msg::String>([01;35m[K"chatter"[m[K,10,std::bind(&Listener::do_cb,this,std::placeholders::_1));
+[4.030s]       |                                                                   [01;35m[K^~~~~~~~~[m[K
+[4.036s] [01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:31:133:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[4.036s]    31 |         subscription_ = this->subscription<std_msgs::msg::String>("chatter",10,std::bind(&Listener::do_cb,this,std::placeholders::_1[01;35m[K)[m[K);
+[4.037s]       |                                                                                                                                     [01;35m[K^[m[K
+[4.776s] gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76：CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] 错误 1
+[4.776s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_listener_str.dir/all] 错误 2
+[4.777s] gmake: *** [Makefile:146：all] 错误 2
+[4.782s] Invoked command in '/home/user1/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/user1/ws01_plumbing/install/base_interfaces_demo:/home/user1/ws01_plumbing/install/cpp01_topic:/home/user1/ws01_plumbing/install/py01_topic:/opt/ros/humble /usr/bin/cmake --build /home/user1/ws01_plumbing/build/cpp01_topic -- -j12 -l12

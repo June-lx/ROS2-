@@ -1,0 +1,8 @@
+[01m[K/home/user1/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:23:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   23 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/demo02_listener_str.dir/build.make:76：CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_listener_str.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
